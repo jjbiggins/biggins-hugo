@@ -1,0 +1,31 @@
+        <footer style="background-color: black">
+
+	   <ul style="list-style-type: none; border-top: 0.5px solid grey; background-color: black; text-align: left" >
+
+	       <li class="copyright text-muted cpright-text"  style="text-align:left; display:inline;border-right: 0.5px solid grey; padding: 0px 120px 0px 0px; ">
+		   <span>
+		       {{ .Site.Params.copyright | default "&copy; Trees, LLC. All rights reserved. A xeuler.com, Inc.  Company" | markdownify }}</span>
+
+		</li>
+
+		<!--
+		<li class="text-muted cpright-text" style="display:inline;border-right: 0.5px solid grey">-->
+
+	       <li class="copyright text-muted cpright-text"  style="text-align:left; display:inline;border-right: 0.5px solid grey; padding: 0px 120px 0px 120px; ">
+
+		    Privacy Policy </li>
+		</li>
+
+	       <li class="copyright text-muted cpright-text"  style="text-align:left; display:inline; padding: 0px 120px 0px 120px; ">
+
+		    Site Map</li>
+		</li>
+	    </ul>
+	    </div>
+
+        </footer>
+        {{ partial "body-close" . }}
+        
+    </body>
+
+</html>
