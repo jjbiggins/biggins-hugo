@@ -1,5 +1,5 @@
 html body {
-    /*font-family: '{{ .Site.Params.font }}', sans-serif;*/
+    font-family: '{{ .Site.Params.font }}', sans-serif;
     color: var(--text-color);
     background-color: var(--bg-color);
 }
@@ -12,20 +12,16 @@ html, body {
 body {
     padding-top: 55px;
     display: flex;
+    text-align: center;
     flex-direction: column;
 }
 
 main {
     margin: auto;
-    flex: 1 0 auto;
     padding: 25px;
-    width: 100%;
+    flex: 1 0 auto;
+    max-width: 750px;
 }
-
-
-
-
-
 
 img {
     max-width: 100%;
@@ -107,7 +103,6 @@ a:hover {
 
 .item {
     padding: 10px 0;
-    width: 100%;
 }
 
 .item-tag {
@@ -121,7 +116,6 @@ a:hover {
     display: inline-block !important;
 }
 
-
 /* Colored borders at top/bottom of page */
 
 .navbar.navbar-default {
@@ -131,51 +125,6 @@ a:hover {
 footer {
     border-bottom: 0 none var(--accent); 
 
-}
-
-#post-table {
-	width: 100%;
-}
-
-
-#title {
-	font-size: 48pt;
-	font-weight: bold;
-}
-
-
-#title a {
-	font-size: 48pt;
-}
-
-
-
-#post-table td {
-	padding: 8px;
-}
-
-
-#post-table td.post-title {
-	text-align: left;
-	width: 50%;
-	font-size: 32px !important;
-}
-
-
-#post-info {
-	width: 100%;
-}
-
-
-#post-table td.post-tags {
-	text-align: right !important;
-	font-size: 9pt !important;
-}
-
-#post-table td.post-date {
-	text-align: right;
-	vertical-align: bottom;
-	font-size: 11pt !important;
 }
 
 
@@ -198,41 +147,6 @@ footer {
     border: 0px;
 }
 
-.wrapper ul li a {
-	text-decoration: none;
-	padding: 0 50px;
-	display: block;
-}
-
-.wrapper ul li a .navbar-icon {
-	width: 40px; /* changing the width of the icon */
-	height: 40px; /* changing the height of the icon */
-	text-align: center;
-
-	overflow: hidden;
-	margin: 0 auto 10px;
-
-}
-/* set the size, height, width of the icon*/
-.wrapper ul li a .navbar-icon .fab {
-	width: 100%;
-	height: 100%;
-	line-height: 40px;
-	font-size: 34px;
-	transition: 0.5s; /* adding the transition to make it more attractive */
-	color: #000;
-}
-
-/* Change the color of icon on hover */
-.wrapper ul li a .navbar-icon .fab:last-child{
-	color: aqua;
-}
-/* style the color and transform of the icon on hover */
-.wrapper ul li a:hover .navbar-icon .fab{
-	transform: translateY(-100%); /* translate y to add the hover effect */
-}
-
-
 .social-container {
   height: 200px;
   border: 3px solid green;
@@ -244,5 +158,6 @@ footer {
   position: absolute;
   top: 70%;
 }
+
 
 

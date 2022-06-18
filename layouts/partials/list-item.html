@@ -15,9 +15,24 @@
 
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subheader" }}
     {{ with .Description }} {{ $.Scratch.Set "subheader" . }} {{ end }}
+    
+    <table id="post-table">
+	    <tbody>
+		    <tr>
+			    <td class="post-title"><a class="title" href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></td>
+			    <td class="post-info"><table style="width:100%;">
+					    <tbody>
+						    <tr>
+			    <td class="post-date">{{ $.Scratch.Get "subheader" }}</td>
 
-    <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
-    <h5>{{ $.Scratch.Get "subheader" }}</h5>
-    {{ partial "tags" . }}
+						    </tr>
+						    <tr>
+			    <td class="post-tags">{{ partial "tags" . }}</td>
+						    </tr>
+					    </tbody>
+				    </table>
+		</tr>
+	</tbody>
+	</table>
 
 </div>
