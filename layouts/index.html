@@ -1,22 +1,30 @@
 {{ partial "header" . }}
 
 <main>
-    <div class="intro">
-        {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
-        <h1>{{ .Site.Title }}</h1>
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
-        {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
-
-
-
-	{{ if .Site.Menus.icon }}
-	    <ul class="nav navbar-center">
-		{{ range sort .Site.Menus.icon }}
-		    <li class="navbar-icon"><a href="{{ .URL }}"><i class="{{ .Name }}"></i></a></li>
+	<div class="intro">
+        
+		{{ if .Site.Menus.icon }}
+	    	<ul class="nav navbar-center">
+			{{ range sort .Site.Menus.icon }}
+		    	<li class="navbar-icon">
+				<a href="{{ .URL }}">
+					<i class="{{ .Name }}"></i>
+				</a>
+			</li>
+			{{ end }}
+	    	</ul>
 		{{ end }}
-	    </ul>
-	{{ end }}
-    </div>
+
+		<h1>{{ .Site.Title }}</h1>
+		<h2>{{ markdownify .Site.Params.Description }}</h2>
+
+		{{ with .Content }} 
+		<div class="homepage-content text-justify">{{ . }}</div> 
+		{{ end }}
+
+
+
+	</div>
 </main>
 
 {{ partial "footer" . }}
