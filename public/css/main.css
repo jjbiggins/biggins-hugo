@@ -4,6 +4,10 @@ html body {
     background-color: var(--bg-color);
 }
 
+.light-mode {
+	background-color: white;
+	color: black;
+}
 
 html, body {
     height: 100%;
@@ -269,6 +273,15 @@ a:hover {
     background-color: var(--accent);
 }
 
+
+
 /* end blog style ------------------------------ */
 
 
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}

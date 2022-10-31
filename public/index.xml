@@ -2,53 +2,110 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>biggins</title>
-    <link>http://www.biggins.tech/</link>
+    <link>https://www.biggins.tech/</link>
     <description>Recent content on biggins</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Jul 2022 19:40:04 -0400</lastBuildDate><atom:link href="http://www.biggins.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Oct 2022 02:19:45 -0400</lastBuildDate><atom:link href="https://www.biggins.tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 1</title>
-      <link>http://www.biggins.tech/project/project1/</link>
+      <link>https://www.biggins.tech/project/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.biggins.tech/project/project1/</guid>
+      <guid>https://www.biggins.tech/project/project1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 2</title>
-      <link>http://www.biggins.tech/project/project2/</link>
+      <link>https://www.biggins.tech/project/project2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.biggins.tech/project/project2/</guid>
+      <guid>https://www.biggins.tech/project/project2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 3</title>
-      <link>http://www.biggins.tech/project/project3/</link>
+      <link>https://www.biggins.tech/project/project3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.biggins.tech/project/project3/</guid>
+      <guid>https://www.biggins.tech/project/project3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project 4</title>
-      <link>http://www.biggins.tech/project/project4/</link>
+      <link>https://www.biggins.tech/project/project4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.biggins.tech/project/project4/</guid>
+      <guid>https://www.biggins.tech/project/project4/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>The Lonesome Soliloquy: The Fiction of Negative Numbers</title>
+      <link>https://www.biggins.tech/post/the-fiction-of-negative-numbers/</link>
+      <pubDate>Sat, 22 Oct 2022 02:19:45 -0400</pubDate>
+      
+      <guid>https://www.biggins.tech/post/the-fiction-of-negative-numbers/</guid>
+      <description>Now, I know, the title The Fiction of Negative Numbers is bold at best, and undermines my credibility at worst. In an effort to avoid the worst-case, I feel it&amp;rsquo;s important to establish my ethos, or lack there of.
+I&amp;rsquo;m by no means a mathematician, far from it. I neither have an advanced degree in mathematics, nor physics, or any other mathematics intensive field. I have not been enrolled in a mathematics course, regardless of discipline, in north of 3 years.</description>
+    </item>
+    
+    <item>
+      <title>Thank You Layne</title>
+      <link>https://www.biggins.tech/post/thank-you-layne/</link>
+      <pubDate>Wed, 12 Oct 2022 01:31:31 -0400</pubDate>
+      
+      <guid>https://www.biggins.tech/post/thank-you-layne/</guid>
+      <description>Thank You Layne,
+Everyday, every single day, I get up and try to stop thinking about you. I&amp;rsquo;ve always been quite verbose, and you been, well, the contrary.
+I love you for that. I always have. At this particular time, though, it&amp;rsquo;s made it difficult, but that&amp;rsquo;s not important. Not now.
+I&amp;rsquo;m here to write to you, my love. I understand the situation at hand. I do.
+I know you&amp;rsquo;ll never see this, so let me be the verbose guy one last time.</description>
+    </item>
+    
+    <item>
+      <title>The Lonesome Soliloquy: The Preamble</title>
+      <link>https://www.biggins.tech/post/the_lonesome_soliloquy_v0-the-intro/</link>
+      <pubDate>Thu, 22 Sep 2022 02:55:47 -0400</pubDate>
+      
+      <guid>https://www.biggins.tech/post/the_lonesome_soliloquy_v0-the-intro/</guid>
+      <description>Welcome, to the inagural iteration of The Lonesome Soliloquy Series. For many, and, I surmise for all initially, me included, will find the topics, notions, ideas, opinions&amp;ndash;whatever adjective one may choose&amp;ndash;far too incongruent to justify them belonging to a singular literary entity, a Series, for lack of a better word. And, from this perspective, I cannot disagree.
+This is not a series of a subject matter; this is a series of thought, of thinking.</description>
+    </item>
+    
+    <item>
+      <title>Dear Layne</title>
+      <link>https://www.biggins.tech/post/dear-layne/</link>
+      <pubDate>Fri, 19 Aug 2022 06:40:39 -0400</pubDate>
+      
+      <guid>https://www.biggins.tech/post/dear-layne/</guid>
+      <description>Dear Layne, Do people run out of tears? We have too, right? I hope we do.
+I once told you I the movie A Star is Born reminded me of us, a long time ago. Maybe 3, 4 years. Lone time.
+Either way, that&amp;rsquo;s not the point.
+It did remind me of us. Life was so hard back then, so incredibly hard. Since, it&amp;rsquo;s been less hard, but hard. Anyway, In the last two years, maybe more, I&amp;rsquo;ve never watched that movied.</description>
+    </item>
+    
+    <item>
+      <title>When Your Heart Breaks</title>
+      <link>https://www.biggins.tech/post/when-your-heart-breaks/</link>
+      <pubDate>Mon, 15 Aug 2022 23:48:44 -0400</pubDate>
+      
+      <guid>https://www.biggins.tech/post/when-your-heart-breaks/</guid>
+      <description>What a peculiar time&amp;ndash;when your heart breaks&amp;ndash;that is, extraordinary even. Such a state, the state of a shattered heart, a state where there exists little room for brevity in describing.
+The wise words of my dear friend Aeschylus:
+“Even in our sleep, pain which cannot forget falls drop by drop upon the heart, until, in our own despair, against our will, comes wisdom through the awful grace of God.”
+It&amp;rsquo;s an affliction of the heart, a afflication I presently bear.</description>
+    </item>
+    
+    <item>
       <title>Ode to Silence</title>
-      <link>http://www.biggins.tech/post/ode-to-silence/</link>
+      <link>https://www.biggins.tech/post/ode-to-silence/</link>
       <pubDate>Fri, 15 Jul 2022 19:40:04 -0400</pubDate>
       
-      <guid>http://www.biggins.tech/post/ode-to-silence/</guid>
+      <guid>https://www.biggins.tech/post/ode-to-silence/</guid>
       <description>Ode To Silence Throughout the land, all was quiet, silence, was all to see.
 The world held still; was this all there is to be?
 There was no war, and no epidemic plagued her people
@@ -59,56 +116,11 @@ But, instead, in the heart lied this oppressor</description>
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>http://www.biggins.tech/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.biggins.tech/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>http://www.biggins.tech/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.biggins.tech/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>http://www.biggins.tech/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.biggins.tech/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate from Jekyll</title>
-      <link>http://www.biggins.tech/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.biggins.tech/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
       <title>About</title>
-      <link>http://www.biggins.tech/about/</link>
+      <link>https://www.biggins.tech/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.biggins.tech/about/</guid>
+      <guid>https://www.biggins.tech/about/</guid>
       <description>Hugo is a fast and modern static site generator written in Go, and designed to make website creation fun again. Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors.</description>
     </item>
     

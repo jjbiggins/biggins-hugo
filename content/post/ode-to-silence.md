@@ -38,3 +38,5 @@ draft: false
 >*The saddest shackles that indenture human-kind*
 >
 >*is emptiness, an empty heart and closed mind*
+
+-- Joe biggins

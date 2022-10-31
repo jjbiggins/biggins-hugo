@@ -2,83 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.biggins.tech/project/project1/</loc>
+    <loc>https://www.biggins.tech/project/project1/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/project/project2/</loc>
+    <loc>https://www.biggins.tech/project/project2/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/project/project3/</loc>
+    <loc>https://www.biggins.tech/project/project3/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/project/project4/</loc>
+    <loc>https://www.biggins.tech/project/project4/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/</loc>
+    <loc>https://www.biggins.tech/</loc>
+    <lastmod>2022-10-22T02:19:45-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/post/</loc>
+    <lastmod>2022-10-22T02:19:45-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/post/the-fiction-of-negative-numbers/</loc>
+    <lastmod>2022-10-22T02:19:45-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/post/thank-you-layne/</loc>
+    <lastmod>2022-10-12T01:31:31-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/post/the_lonesome_soliloquy_v0-the-intro/</loc>
+    <lastmod>2022-09-22T02:55:47-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/post/dear-layne/</loc>
+    <lastmod>2022-08-19T06:40:39-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/post/when-your-heart-breaks/</loc>
+    <lastmod>2022-08-15T23:48:44-04:00</lastmod>
+  </url><url>
+    <loc>https://www.biggins.tech/tags/literature/</loc>
     <lastmod>2022-07-15T19:40:04-04:00</lastmod>
   </url><url>
-    <loc>http://www.biggins.tech/tags/literature/</loc>
+    <loc>https://www.biggins.tech/post/ode-to-silence/</loc>
     <lastmod>2022-07-15T19:40:04-04:00</lastmod>
   </url><url>
-    <loc>http://www.biggins.tech/post/ode-to-silence/</loc>
+    <loc>https://www.biggins.tech/tags/originals/</loc>
     <lastmod>2022-07-15T19:40:04-04:00</lastmod>
   </url><url>
-    <loc>http://www.biggins.tech/tags/originals/</loc>
+    <loc>https://www.biggins.tech/tags/poetry/</loc>
     <lastmod>2022-07-15T19:40:04-04:00</lastmod>
   </url><url>
-    <loc>http://www.biggins.tech/tags/poetry/</loc>
+    <loc>https://www.biggins.tech/tags/</loc>
     <lastmod>2022-07-15T19:40:04-04:00</lastmod>
   </url><url>
-    <loc>http://www.biggins.tech/post/</loc>
-    <lastmod>2022-07-15T19:40:04-04:00</lastmod>
+    <loc>https://www.biggins.tech/about/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/</loc>
-    <lastmod>2022-07-15T19:40:04-04:00</lastmod>
+    <loc>https://www.biggins.tech/tags/bootstrap/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/categories/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/go/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/css/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/golang/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/go/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/golang/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/themes/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/highlight-js/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/html/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/hugo/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/js/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/project/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/tags/static-site-generator/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://www.biggins.tech/tags/responsive/</loc>
   </url><url>
-    <loc>http://www.biggins.tech/about/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/bootstrap/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/categories/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/css/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/highlight-js/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/html/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/js/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/project/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/responsive/</loc>
-  </url><url>
-    <loc>http://www.biggins.tech/tags/syntax-highlighting/</loc>
+    <loc>https://www.biggins.tech/tags/syntax-highlighting/</loc>
   </url>
 </urlset>

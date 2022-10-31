@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Lonesome Soliloquy: The Fiction of Negative Numbers</title>
+        
+
+        <style>
+
+
+    :root {
+        --accent: red;
+	--bg-color: #292a2d;
+	--text-color: white;
+        --border-width:  0 ;
+    }
+
+    .dark-theme {
+	--bg-color: #2196F3;
+	--text-color: white;
+    }
+
+
+</style>
+
+
+
+
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://www.biggins.tech/css/main.css">
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+
+
+ <meta name="generator" content="Hugo 0.101.0" />
+        
+
+	
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NRMMFJD56K"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-NRMMFJD56K', { 'anonymize_ip': false });
+}
+</script>
+
+	
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-NRMMFJD56K', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+	
+	
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-NRMMFJD56K"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+			gtag('config', "G-NRMMFJD56K");
+		</script>
+		
+	
+	  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	  
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+        
+
+    </head>
+    <body class="home">
+	
+
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+
+
+                    <a class="navbar-brand visible-xs" href="#">The Lonesome Soliloquy: The Fiction of Negative Numbers</a>
+
+		    <a href="javascript:void(0);" class="theme-switch"><i class="iconfont icon-sun"></i></a>&nbsp;
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li><a href="/">home</a></li>
+                            
+                                <li><a href="/post/">blog</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                </div>
+            </div>
+        </nav>
+
+
+<main>
+
+    <div>
+        <h2>The Lonesome Soliloquy: The Fiction of Negative Numbers</h2>
+        <h5>October 22, 2022</h5>
+        
+
+    </div>
+
+    <div align="start" class="content"><p>Now, I know, the title <strong>The Fiction of Negative Numbers</strong> is bold at best, and undermines my credibility at worst. In an effort to avoid the worst-case, I feel it&rsquo;s important to establish my ethos, or lack there of.</p>
+<p>I&rsquo;m by no means a mathematician, far from it. I neither have an advanced degree in mathematics, nor physics, or any other mathematics intensive field. I have not been enrolled in a mathematics course, regardless of discipline, in north of 3 years. By any qualitative or quantitative measure, I entirely lack the credentials to speak on the topic at hand.</p>
+<p>For this reason, I will not attempt to appeal to my authority on the matter as means of persuasion. Instead, in rhetorical terms, the basis of my argument will be rooted entirely in logos; or my feeble attempt to appeal to logic.</p>
+<p>Now that I have eviserated my credentials, let&rsquo;s begin.</p>
+<p>First, it&rsquo;s usefuly to define exactly what I mean by the term &ldquo;fiction&rdquo;, but let&rsquo;s start with what that term is not intended to mean. It is not intended to be a ralling cry for conspiracy theorists. It is not a call to abolish negative numbers, and ban the very mention of them from being utter in schools. I got nothing personal against negative numbers; I actually adore them. These little guys, infinite in number, and perptually shrinking in magnitude, are essential to the language of mathematics. Removing them from the vocabulary of mathematics would be tantamount to removing adjectives from the english language. Sure, some things could be conveyed, but many things, the robustness of english allows for, would be indescribable without those tools in the language toolbox. As such, it is fair that negative numbers are an indispenible tool in the mathematics toolbox.</p>
+<p>So what is so fictious about them?</p>
+<p>Great question.</p>
+<p>While negative numbers are, as previously argued, a dear family member of mathematics, that is all they are. They are merely a mathematical construct, albeit a useful one, but a construct nontheless.</p>
+<p>Now, let&rsquo;s dive into what I mean by that, and the crux of my argument.</p>
+<p>To the best of my knowledge, negative numbers do <strong>NOT</strong> exist in the natural world.</p>
+<p>Luckily for me, the world has physics. In physics, which one may describe as the translation of the natural world into the language of mathematics, or, maybe more aptly, the application of mathematics to explain the universe.</p>
+<p>Now, in physics, one could devise a situation of which a calculation would yield an negative distance or negative velocity, really any quantity in classical mechanics, given the necessary values, could yield a negative value upon calculation.</p>
+<p>But what the fuck is a negative distance? How can someone drive -25 mph?  There in lies the fiction.</p>
+<p>In such cases, these negative values express some measure of realivity. Not big brains Einstein relativity, but the relative nature of the negative output to the input values of the given calculation.</p>
+<p>Take velocity for example, velocity is the directional speed of an object, a vector quantity. The scalar <strong>absolute value</strong> represents the objects speed. As, absolute values are always non-negative, we can, in turn, say that speed can never be negative. So now we turn our attention to the second component of this vector measure, direction. Given a negative velocity, and with the knowledge speed is never negative, we can conclude direction is the culprit.</p>
+<p>With that, we arrive at the aforementioned relativity. A negative velocity, or velocity whose direction component is negative, is effectively the description of an objects speed in a given direction. This output is predicated on the input values upon which the calculation is done. These values, for lack of a better word, imply a certain bias.</p>
+<p>To explain, consider throwing a ball straight into the air. Say we throw the ball upward at a velocity of V m/s, where V is an arbitrary positive value, and we want to know what the velocity of the ball will be when big bad gravity wins the fight and brings it back to earth. In such a case, the problem laid out implies the bias that up is direction positive. If up is positive, then, consequently, any value of velocity of the falling ball must be negative, as it is now traveling in the opposite direction as direction positive. Thus, the resulting negative velocity is relative to framework in which we do the calculation.</p>
+<p>Now this description isn&rsquo;t perfect, this is a two step problem, which we must calculate the maximum height the ball will reach, and then, using that value we can find it&rsquo;s velocity&rsquo;s maximum magnitude upon descent. But, it&rsquo;s good enough for me.</p>
+<p>Now let&rsquo;s approach the question of the reality of negative numbers from a more human perspective, our experience in life. As we can all, hopefully, argee, marathoners will never say they ran for -26.2 miles, nor would I say I drove home, it&rsquo;s -16 miles away. That just doesn&rsquo;t make sense in the framework of how we percieve the world. But, unlike those ridiculous uses of negatives, one definitely may say, especially if they are from Chicago like me, it&rsquo;s -8 °F out today. Fuck those days.</p>
+<p>Fuck did I just break my own argument? Let&rsquo;s see. Okay, okay, what is temperature? What does &ldquo;-8 °F&rdquo; actual mean in terms of physics?</p>
+<p>Well, first let&rsquo;s establish the fact that -8 °F could be one thing or another depending on the framework we are using. By that I mean, being from Chicago, I&rsquo;m implying that it&rsquo;s -8 °F, but if I implied a different framework such as <strong>Celsius</strong> then my -8 Fahrenheit could be expressed in mathematical terms as the following:</p>
+<p>$$C = \lparen F - 32 \rparen \times {5 \over 9}$$</p>
+<p>$$ or $$</p>
+<p>$$ C = \lparen  {-8^\circ}F - 32 \rparen \times { 5 \over 9 } = {-22.22^\circ}C$$</p>
+<p>Even worse.</p>
+<p>To expound further on the arbitrary nature of which we express temperature, simply consider water. Now water doesn&rsquo;t give a shit what we label the necessary conditions for it to become ice. It&rsquo;s gunna do it&rsquo;s thing, every time, under the exact same conditions. It&rsquo;s infallible in it&rsquo;s consistency ( yeah, I know the freezing point changes with shit like salt, but that&rsquo;s semantics and irrelavant to the argument). Yet, while the moment water freezes is more certain than the Packers beating the Bears, if you asked me when it would occurs or my cousin&rsquo;s from Ireland we would respond with completely different values; with me stating 32 °F and them 0 °C. Due to this variability, it&rsquo;s safe to say these measures of temperature are merely a useful tool of human creation; in which, temperature, dependent on the framework through which it&rsquo;s viewed, and, thus, not an absolute measure of temperature.</p>
+<p>Naturally, this begs the question, then what is temperature?</p>
+<p>To steal from wikipedia, <em><strong>&ldquo;Temperature is a physical quantity that expresses the hotness of matter or radiation.&rdquo;</strong></em>. This hottness is the product of the atomic nature of the world. That is to say, all things are made of atoms. These atoms contain a certain degree of kinetic energy. This kinetic energy causes theses atoms to, for lack of a better word, jiggle, effectively perptually. This jiggling knocks the atoms between one another producing friction, and as anyone who has rubbed there hands together fast knows friction produces heat. The faster the atoms jiggle, the more they will collide with one another, and the more friction, and, thus, heat is generated. Since, the &ldquo;fastness&rdquo; of the atomic jiggling cooresponds to the amount of kinetic energy of the atoms, increasing kinetic energy, increases jiggling, which increases heat.</p>
+<p>For an example we are all familiar with, consider a campfire. The chemical reaction of burning logs releases energy in the form of fire, heat. If you place a marshmallow of the fire, the energy of the fire will be transfered into the marshmallow, increasing the kinetic energy of the atoms causing them to jiggle faster. So, when you pull the marshmallow out of the flame and touch it will feel hot as the faster jiggling atoms caused by an increase in average translational kinetic energy between atoms and more friction. Due to all this, you&rsquo;d describe the marshmallow as hot, or, in other words, it&rsquo;s temperature has increased.</p>
+<p>That said, we now arrive at the third, lesser known temperature scale <strong>Kelvin</strong>. Kelvin is an absolute thermodynamic temperature scale, meaning, it actually measures temperature.</p>
+<p>As we previously established, temperature can, ineffect, be boiled down to the measure of the &ldquo;fastness&rdquo; of jiggling atoms. With that in mind, we can deduce, that only when this jiggling has ceased entirely have we truly reached a temperature of zero. This is exactly what the Kelvin scale measures. Unlike the more commonplace temperature scales, Kelvin&rsquo;s 0 is when this occurs, this moment we call <em><strong>absolute zero</strong></em>. In Kelvin, there are no such thing as negative temperatures. Atom&rsquo;s either jiggle or they don&rsquo;t.</p>
+<p>To tie it altogether, the temperature of absolute zero, defined as 0 K, is exactly equal to −273.15 °C, or −459.67 °F. Thse are abslutely absurd numbers. Moreover, the freezing point of water, defined as 273.15 K, is exactly equal to the 32 °F or 0 °C we are more familiar with. I mention this to demonstrate that we use the temperature scales we use out of conveinece rather than as true measures of physical properties.</p>
+<p>I&rsquo;m getting tired of writting so I&rsquo;m calling it here.</p>
+<p>Find me a negative number in your life, and then ask yourself what does this actually measure?</p>
+<p>Joe</p>
+</div>
+
+    
+    
+    
+
+    
+    
+        <h4 class="page-header">Comments</h4>
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "jjbiggins" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">2022 © Trees, LLC. All rights reserved.</p>
+        </footer>
+
+        
+
+
+        
+    </body>
+
+</html>
+

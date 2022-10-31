@@ -1,9 +1,9 @@
-baseURL = "https://www.biggins.tech/"
+baseURL = "https://www.biggins.tech"
 languageCode = "en-us"
 title = "biggins"
 theme = "minimal"
 disqusShortname = "jjbiggins" # delete this to disable disqus comments
-googleAnalytics = ""
+googleAnalytics = "G-NRMMFJD56K"
 
 [params]
     author = "Joe Biggins"
@@ -14,10 +14,12 @@ googleAnalytics = ""
     showBorder = false
     backgroundColor = "#292a2d"
     textColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
+    font = "sans-serif" # should match the name on Google Fonts!a
+	font_size = "l"
     highlight = true
     highlightStyle = "default"
-    highlightLanguages = ["python", "c", "java", "go", "haskell", "kotlin", "scala", "swift"]
+	highlightLanguages = ["python", "c", "java", "go", "haskell", "kotlin", "scala", "swift"]
+	mathjax = true
 
 
 
@@ -26,15 +28,15 @@ googleAnalytics = ""
     name = "home"
     weight = 1
 
-[[menu.main]]
-    url = "/about/"
-    name = "about"
-    weight = 2
+#[[menu.main]]
+#    url = "/about/"
+#    name = "about"
+#    weight = 2
 
 [[menu.main]]
     url = "/post/"
     name = "blog"
-    weight = 3
+    weight = 2
 
 #[[menu.main]]
 #    url = "/project/"
@@ -48,7 +50,7 @@ googleAnalytics = ""
 
 
 [[menu.icon]]
-    url = "mailto:joe+contacts@biggins.tech"
+    url = "mailto:joe@biggins.tech"
     name = "fas fa-envelope"
     weight = 1
 
@@ -66,8 +68,3 @@ googleAnalytics = ""
     url = "https://www.linkedin.com/in/josephbiggins/"
     name = "fab fa-linkedin"
     weight = 4
-
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/josephbiggins/"
-    name = "fab fa-stack-overflow"
-    weight = 5
