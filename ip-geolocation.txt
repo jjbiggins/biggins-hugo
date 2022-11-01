@@ -1,0 +1,47 @@
+
+	<script>
+		// On call to IPGeolocation API on each page during a user's visit, 
+		// API response will be served from sessionStorage after the first page.
+		
+		_ipgeolocation.enableSessionStorage(true);
+
+		var ip = sessionStorage.getItem("ip");
+		var hostname = sessionStorage.getItem("hostname");
+		var country_name = sessionStorage.getItem("country_name");
+		var country_code2 = sessionStorage.getItem("country_code2");
+		var state_prov = sessionStorage.getItem("state_prov");
+		var city = sessionStorage.getItem("city");
+		var zip = sessionStorage.getItem("zipcode");
+		var lat = sessionStorage.getItem("latitude");
+		var longitude = sessionStorage.getItem("longitude");
+
+
+		let fields = "ip,city,state_prov,zip,country_name,country_code2,lat,longitude"
+		if (!ip || !country_name || !country_code2) {
+			_ipgeolocation.makeAsyncCallsToAPI(true);
+			_ipgeolocation.setFields(fields);
+			_ipgeolocation.getGeolocation(handleResponse,"c6b397d9f250470a81819801ad43dd03");
+		}
+
+
+		function handleResponse(json) {
+			ip = json.ip;
+			city = json.city;
+			state_prov = json.state_prov;
+			zip = json.zip;
+
+			country_name = json.country_name;
+			country_code2 = json.country_code2;
+
+			lat = json.lat;
+			longitude = json.longitude;
+		}
+
+
+		$(document).ready(function() {
+			alert("Hello " + country_name + "!");
+		});
+
+	</script>
+
+
